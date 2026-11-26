@@ -12,7 +12,7 @@ public class TestingController {
     @GetMapping("/api/health")
     public Map<String, String> health() {
         return Map.of(
-            "version", "V2",
+            "version", "V1",
             "message", "Version 2 - Updated! Automation Success--> - Jenkins Deploy Worked!",
             "color", "GREEN",
             "app", "simplybyte-springboot"
