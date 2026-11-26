@@ -13,7 +13,7 @@ public class TestingController {
     public Map<String, String> health() {
         return Map.of(
             "version", "V2",
-            "message", "Version 2 - Updated! Automation Success - Jenkins Deploy Worked!",
+            "message", "Version 2 - Updated! Automation Success--> - Jenkins Deploy Worked!",
             "color", "GREEN",
             "app", "simplybyte-springboot"
         );
