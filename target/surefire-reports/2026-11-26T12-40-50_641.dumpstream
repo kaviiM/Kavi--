@@ -1,0 +1,5 @@
+# Created at 2026-11-26T12:40:51.912
+Boot Manifest-JAR contains absolute paths in classpath 'E:\Courses\AWS SAA-NR\Project for jenkins\simplybyte-v1-v2-visual\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

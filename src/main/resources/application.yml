@@ -1,0 +1,10 @@
+# APP PORT = 8090 | VERSION = V2
+# V1 la version: V1 | V2 la version: V2 nu maathinen
+server:
+  port: 8090
+app:
+  version: V2
+  message: "Version 2 - Updated! Automation Success"
+spring:
+  application:
+    name: simplybyte-springboot

@@ -1,0 +1,14 @@
+FREESTYLE - V1 -> V2 UPGRADE - ORU STEP MATTUM!
+Jenkins -> Job1.1-Simplebyte -> Configure -> Build Steps -> ORU Step mattum vei:
+
+echo "=== Build Started ==="
+set "PATH=%PATH%;C:\Program Files\Maven\apache-maven-3.9.15\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Windows\System32"
+mvn clean install -DskipTests=true
+docker build --no-cache -t san2-calcus .
+docker rm -f con2-san-calcus || echo "No old container"
+docker run -d -p 8097:8090 --name=con2-san-calcus san2-calcus
+docker ps
+docker logs con2-san-calcus
+echo "=== Build Finished ==="
+
+MUKKIYAM: docker build la --no-cache MUST! Illana Pazhaya V1 Image thaan varum!
